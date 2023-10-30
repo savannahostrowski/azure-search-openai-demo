@@ -1,49 +1,4 @@
----
-name: ChatGPT + Enterprise data
-description: Chat with your data using OpenAI and Cognitive Search.
-languages:
-- python
-- typescript
-- bicep
-- azdeveloper
-products:
-- azure-openai
-- azure-cognitive-search
-- azure-app-service
-- azure
-page_type: sample
-urlFragment: azure-search-openai-demo
----
-
 # ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search
-
-## Table of Contents
-
-- [Features](#features)
-- [Azure account requirements](#azure-account-requirements)
-- [Azure deployment](#azure-deployment)
-  - [Cost estimation](#cost-estimation)
-  - [Project setup](#project-setup)
-    - [GitHub Codespaces](#github-codespaces)
-    - [VS Code Dev Containers](#vs-code-dev-containers)
-    - [Local environment](#local-environment)
-  - [Deploying from scratch](#deploying-from-scratch)
-  - [Deploying with existing Azure resources](#deploying-with-existing-azure-resources)
-  - [Deploying again](#deploying-again)
-- [Sharing environments](#sharing-environments)
-- [Enabling optional features](#enabling-optional-features)
-  - [Enabling Application Insights](#enabling-application-insights)
-  - [Enabling authentication](#enabling-authentication)
-  - [Enabling login and document level access control](#enabling-login-and-document-level-access-control)
-  - [Enabling CORS for an alternate frontend](#enabling-cors-for-an-alternate-frontend)
-- [Using the app](#using-the-app)
-- [Running locally](#running-locally)
-- [Productionizing](#productionizing)
-- [Resources](#resources)
-  - [Note](#note)
-  - [FAQ](#faq)
-  - [Troubleshooting](#troubleshooting)
-
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=599293758&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
 [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo)
 
